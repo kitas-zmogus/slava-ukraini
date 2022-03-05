@@ -39,7 +39,7 @@ async function flood(target) {
 }
 
 async function load() {
-    let url = '/targets.json';
+    let url = 'https://cdn.jsdelivr.net/gh/kitas-zmogus/slava-ukraini/targets.json';
     let targets = await (await fetch(url)).json();
     for (var i = 0; i < targets.length; i++) {
         flood(targets[i])
