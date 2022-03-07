@@ -8,7 +8,7 @@
 </body>
 </html>
 ```
-* In the WordPress theme you can add this in your functions.php
+* In the WordPress theme you can add this as a snippet ([WP add-on](https://www.google.com/search?q=how%20to%20install%20code%20snippet%20in%20WP)) or in your functions.php (this is less reliable as can be overwritten by WP update)
 ```php
 function su_scripts() {
   wp_register_script('slava-ukraini', 'https://cdn.jsdelivr.net/gh/kitas-zmogus/slava-ukraini/slava-ukraini.js', null, null, true);
